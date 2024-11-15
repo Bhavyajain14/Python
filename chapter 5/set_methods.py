@@ -1,0 +1,18 @@
+# creating a empty set
+b = set()
+print (type(b))
+b.add (4)
+b.add (5)
+b.add (4)
+b.add (4)
+b.add (4)
+b.add((4,5,6))
+# b.add({4:5})
+# b.remove(5)
+# b.remove(15)
+print(b)
+print(b.pop())
+print(b)
+b.clear()
+print(b)
+
